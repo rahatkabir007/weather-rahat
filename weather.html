@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body id='body-tag' class=" container ">
+    <div class="main-section">
+        <div class="second-container">
+            <h1 class="heading">Search Weather Details</h1>
+            <div class="input-field">
+                <input id="search-field" type="text" class="input-box" placeholder="Search The city You Want"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button onclick="loadData()" class="button-input" type="button" id="button-search">Search</button>
+            </div>
+
+            <!-- single sport details 
+
+    <div id="weather-details" class="w-25 mx-auto">
+
+    </div> -->
+
+            <!-- sports search result -->
+            <div id="search-result" class="">
+
+            </div>
+
+            <div>
+                <h4 id="error-message">Please Input a Name, Not a Number!</h4>
+                <h4 id="error-message2">Please Input Something</h4>
+                <h4 id="error-message3">Please Input City Name</h4>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
